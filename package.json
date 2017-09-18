@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cvdlab/react-planner.git"
+    "url": "git+https://github.com/dearkaran/react-planner.git"
   },
   "keywords": [
     "floorplanner",
@@ -39,7 +39,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cvdlab/react-planner/issues"
+    "url": "https://github.com/dearkaran/react-planner/issues"
   },
   "maintainers": [
     {
@@ -63,7 +63,7 @@
       "name": "alessiocarrafa"
     }
   ],
-  "homepage": "https://github.com/cvdlab/react-planner#readme",
+  "homepage": "https://github.com/dearkaran/react-planner#readme",
   "dependencies": {
     "@mapbox/react-range": "0.0.7",
     "area-polygon": "1.0.1",
