@@ -33,6 +33,7 @@ module.exports = function (env) {
     devtool: isProduction ? 'source-map' : 'eval',
     devServer: {
       port: 8080,
+	  host: 'ec2-52-54-134-39.compute-1.amazonaws.com',
       //port: port,
       contentBase: path.join(__dirname, './dist'),
     },
