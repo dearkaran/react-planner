@@ -32,7 +32,8 @@ module.exports = function (env) {
     },
     devtool: isProduction ? 'source-map' : 'eval',
     devServer: {
-      port: port,
+      port: 8080,
+      //port: port,
       contentBase: path.join(__dirname, './dist'),
     },
     resolve: {
@@ -99,7 +100,8 @@ module.exports = function (env) {
   }
 
   if (!isProduction) {
-    config.plugins.push(new OpenBrowserPlugin({url: `http://localhost:${port}`}))
+    //config.plugins.push(new OpenBrowserPlugin({url: `http://localhost:${port}`}))
+    config.plugins.push(new OpenBrowserPlugin({url: 'http://ec2-52-54-134-39.compute-1.amazonaws.com:8080'}))
   }
 
   return config;
