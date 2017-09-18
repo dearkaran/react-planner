@@ -20,7 +20,6 @@ module.exports = function (env) {
   let config = {
     context: path.resolve(__dirname),
     entry: {
-      'webpack-dev-server/client?http://0.0.0.0:80',
       app: './src/renderer.jsx',
       vendor: VENDORS_LIBRARIES
     },
